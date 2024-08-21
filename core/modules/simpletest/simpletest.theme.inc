@@ -105,7 +105,7 @@ function theme_simpletest_test_table($variables) {
     'header' => $header,
     'rows' => $rows,
     'empty' => '<strong>' . t('No tests to display.') . '</strong>',
-    'attributes' => array('id' => 'simpletest-form-table')
+    'attributes' => array('id' => 'simpletest-form-table'),
   ));
 }
 

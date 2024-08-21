@@ -142,7 +142,7 @@ function theme_views_ui_rearrange_form($variables) {
     'header' => $header,
     'rows' => $rows,
     'empty' => t('No fields available.'),
-    'attributes' => array('id' => 'arrange')
+    'attributes' => array('id' => 'arrange'),
   ));
   $output .= '</div>';
   $output .= backdrop_render_children($form);
@@ -341,7 +341,10 @@ function theme_views_ui_rearrange_filter_form(&$variables) {
       'header' => $header,
       'rows' => $ungroupable_rows,
       'empty' => t('No fields available.'),
-      'attributes' => array('id' => 'views-rearrange-filters-ungroupable', 'class' => array('arrange'))
+      'attributes' => array(
+        'id' => 'views-rearrange-filters-ungroupable',
+        'class' => array('arrange'),
+      )
     ));
   }
 
