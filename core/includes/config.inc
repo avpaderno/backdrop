@@ -318,7 +318,7 @@ function config_install_default_config($project, $config_name = NULL) {
  * @param string $project
  *   The name of the project we are uninstalling.
  *
- * @since 1.26.0 First parameter changed from $module to $project.
+ * @since 1.26.0 The first parameter has been changed from $module to $project.
  *
  * @since 1.29.0 The $config_name parameter has been removed.
  */
