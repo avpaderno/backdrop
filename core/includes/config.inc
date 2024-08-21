@@ -319,6 +319,8 @@ function config_install_default_config($project, $config_name = NULL) {
  *   The name of the project we are uninstalling.
  *
  * @since 1.26.0 First parameter changed from $module to $project.
+ *
+ * @since 1.29.0 The $config_name parameter has been removed.
  */
 function config_uninstall_config($project) {
   // If this is a theme key, load the matching template.php file.
