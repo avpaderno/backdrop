@@ -344,7 +344,7 @@ function theme_views_ui_rearrange_filter_form(&$variables) {
       'attributes' => array(
         'id' => 'views-rearrange-filters-ungroupable',
         'class' => array('arrange'),
-      )
+      ),
     ));
   }
 
